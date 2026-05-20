@@ -1,0 +1,5 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+guoziyu_question_001,phones,0,B,1.28,1.32,0.040000000000000036,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_001/000_B.wav
+guoziyu_question_001,phones,1,UW1,1.32,1.45,0.1299999999999999,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_001/001_UW1.wav
+guoziyu_question_001,phones,2,L,1.45,1.59,0.14000000000000012,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_001/002_L.wav
+guoziyu_question_001,phones,3,AA0,1.59,1.78,0.18999999999999995,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_001/003_AA0.wav

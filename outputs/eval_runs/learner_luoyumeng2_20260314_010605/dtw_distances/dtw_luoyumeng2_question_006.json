@@ -1,0 +1,132 @@
+{
+  "pair_id": "u1_l1_009__luoyumeng2_question_006",
+  "sentence_text": "e taubale tiko na yalewa",
+  "sentence_distance": 0.26179537987479595,
+  "words": {
+    "e": {
+      "learner_word": "e",
+      "word_distance": 0.2962772244757636,
+      "phones_distances": {
+        "EH1": {
+          "mapping": "e",
+          "learner_phone": "EH1",
+          "phone_distance": 0.2962772244757636
+        }
+      }
+    },
+    "taubale": {
+      "learner_word": "taubale",
+      "word_distance": 0.25877190985023324,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.24463481445783852
+        },
+        "AW1": {
+          "mapping": "au",
+          "learner_phone": "AW1",
+          "phone_distance": 0.3195205202529245
+        },
+        "B": {
+          "mapping": "b",
+          "learner_phone": "B",
+          "phone_distance": 0.3764048525224968
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.28253687897752233
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.43514212557658716
+        },
+        "EH0": {
+          "mapping": "e",
+          "learner_phone": "EH0",
+          "phone_distance": 0.3345753295853889
+        }
+      }
+    },
+    "tiko": {
+      "learner_word": "tiko",
+      "word_distance": 0.3000698318288175,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.3009561418820701
+        },
+        "IY1": {
+          "mapping": "i",
+          "learner_phone": "IY1",
+          "phone_distance": 0.36516864945320116
+        },
+        "K": {
+          "mapping": "k",
+          "learner_phone": "K",
+          "phone_distance": 0.3250451842986841
+        },
+        "AO0": {
+          "mapping": "o",
+          "learner_phone": "AO0",
+          "phone_distance": 0.32133426311623464
+        }
+      }
+    },
+    "na": {
+      "learner_word": "na",
+      "word_distance": 0.2924125666728,
+      "phones_distances": {
+        "N": {
+          "mapping": "n",
+          "learner_phone": "N",
+          "phone_distance": 0.31684167927181794
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.3749402591239332
+        }
+      }
+    },
+    "yalewa": {
+      "learner_word": "yalewa",
+      "word_distance": 0.284958615427176,
+      "phones_distances": {
+        "Y": {
+          "mapping": "y",
+          "learner_phone": "Y",
+          "phone_distance": 0.350312536974436
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.30270185212861767
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.40279211169464924
+        },
+        "EH1": {
+          "mapping": "e",
+          "learner_phone": "EH1",
+          "phone_distance": 0.3010964859862127
+        },
+        "W": {
+          "mapping": "w",
+          "learner_phone": "W",
+          "phone_distance": 0.31866620252499833
+        },
+        "AA0__2": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.2665188541414193
+        }
+      }
+    }
+  }
+}

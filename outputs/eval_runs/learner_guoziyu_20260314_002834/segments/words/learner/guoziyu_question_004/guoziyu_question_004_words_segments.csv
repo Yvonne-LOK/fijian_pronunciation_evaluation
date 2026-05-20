@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+guoziyu_question_004,words,0,e,0.7,0.9,0.20000000000000007,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/learner/guoziyu_question_004/000_e.wav
+guoziyu_question_004,words,1,cici,1.03,1.51,0.48,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/learner/guoziyu_question_004/001_cici.wav
+guoziyu_question_004,words,2,tiko,1.51,2.02,0.51,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/learner/guoziyu_question_004/002_tiko.wav
+guoziyu_question_004,words,3,na,2.02,2.29,0.27,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/learner/guoziyu_question_004/003_na.wav
+guoziyu_question_004,words,4,tagane,2.29,3.09,0.7999999999999998,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/learner/guoziyu_question_004/004_tagane.wav

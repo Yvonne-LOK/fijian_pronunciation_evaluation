@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+u1_l1_013,words,0,e,0.28,0.38,0.09999999999999998,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/reference/u1_l1_013/000_e.wav
+u1_l1_013,words,1,lagasere,0.38,1.1,0.7200000000000001,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/reference/u1_l1_013/001_lagasere.wav
+u1_l1_013,words,2,tiko,1.1,1.47,0.3699999999999999,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/reference/u1_l1_013/002_tiko.wav
+u1_l1_013,words,3,na,1.47,1.67,0.19999999999999996,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/reference/u1_l1_013/003_na.wav
+u1_l1_013,words,4,yalewa,1.67,2.29,0.6200000000000001,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/reference/u1_l1_013/004_yalewa.wav

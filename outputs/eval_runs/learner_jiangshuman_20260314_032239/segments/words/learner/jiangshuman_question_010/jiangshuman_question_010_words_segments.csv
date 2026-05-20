@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+jiangshuman_question_010,words,0,e,0.48,0.73,0.25,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/words/learner/jiangshuman_question_010/000_e.wav
+jiangshuman_question_010,words,1,lagasere,1.19,2.02,0.8300000000000001,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/words/learner/jiangshuman_question_010/001_lagasere.wav
+jiangshuman_question_010,words,2,tiko,2.02,2.35,0.33000000000000007,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/words/learner/jiangshuman_question_010/002_tiko.wav
+jiangshuman_question_010,words,3,na,2.35,2.6,0.25,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/words/learner/jiangshuman_question_010/003_na.wav
+jiangshuman_question_010,words,4,yalewa,2.6,3.23,0.6299999999999999,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/words/learner/jiangshuman_question_010/004_yalewa.wav

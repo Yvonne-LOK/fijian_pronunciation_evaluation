@@ -1,0 +1,5 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+zhangle_question_001,phones,0,B,0.34,0.38,0.03999999999999998,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/phones/learner/zhangle_question_001/000_B.wav
+zhangle_question_001,phones,1,UW1,0.38,0.51,0.13,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/phones/learner/zhangle_question_001/001_UW1.wav
+zhangle_question_001,phones,2,L,0.51,0.64,0.13,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/phones/learner/zhangle_question_001/002_L.wav
+zhangle_question_001,phones,3,AA0,0.64,0.76,0.12,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/phones/learner/zhangle_question_001/003_AA0.wav

@@ -1,0 +1,93 @@
+{
+  "pair_id": "u1_l1_008__luoyumeng2_question_005",
+  "reference_id": "u1_l1_008",
+  "learner_id": "luoyumeng2_question_005",
+  "reference_text": "e taubale tiko na tagane",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 62.53688418271921,
+    "dtw_norm_distance_dimnorm": 0.2705450782439867,
+    "needs_diagnosis": true,
+    "matched_word_segments": 5,
+    "matched_phone_segments": 19
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "taubale",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2846508088973
+    },
+    {
+      "word": "tiko",
+      "word_score_relative": 96.86887093275206,
+      "word_dtw_norm_distance_dimnorm": 0.2862498271112685
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "na",
+      "word_label_learner": "na",
+      "seg_idx": 3,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.3357192311700988,
+      "ref_start": 1.42,
+      "ref_end": 1.58,
+      "learner_start": 1.7,
+      "learner_end": 1.88,
+      "weak_phones": [
+        {
+          "phone": "AA1",
+          "phone_label_learner": "AA1",
+          "seg_idx": 12,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.3943998544844299,
+          "ref_start": 1.54,
+          "ref_end": 1.58
+        }
+      ]
+    },
+    {
+      "word": "tagane",
+      "word_label_learner": "tagane",
+      "seg_idx": 4,
+      "word_score_relative": 9.494701458987592,
+      "word_dtw_norm_distance_dimnorm": 0.3308704369354814,
+      "ref_start": 1.58,
+      "ref_end": 2.21,
+      "learner_start": 1.97,
+      "learner_end": 2.46,
+      "weak_phones": [
+        {
+          "phone": "N",
+          "phone_label_learner": "N",
+          "seg_idx": 17,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.4058822863246393,
+          "ref_start": 1.99,
+          "ref_end": 2.11
+        },
+        {
+          "phone": "AA0",
+          "phone_label_learner": "AA0",
+          "seg_idx": 16,
+          "phone_score_relative": 17.856624961975026,
+          "phone_dtw_norm_distance_dimnorm": 0.3754811935528357,
+          "ref_start": 1.89,
+          "ref_end": 1.99
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

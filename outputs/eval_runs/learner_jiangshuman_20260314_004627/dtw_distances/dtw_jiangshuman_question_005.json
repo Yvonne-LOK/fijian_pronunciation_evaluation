@@ -1,0 +1,132 @@
+{
+  "pair_id": "u1_l1_008__jiangshuman_question_005",
+  "sentence_text": "e taubale tiko na tagane",
+  "sentence_distance": 0.24560989888678098,
+  "words": {
+    "e": {
+      "learner_word": "e",
+      "word_distance": 0.2858104511956219,
+      "phones_distances": {
+        "EH1": {
+          "mapping": "e",
+          "learner_phone": "EH1",
+          "phone_distance": 0.2858104511956219
+        }
+      }
+    },
+    "taubale": {
+      "learner_word": "taubale",
+      "word_distance": 0.29315589925800706,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.251858452338605
+        },
+        "AW1": {
+          "mapping": "au",
+          "learner_phone": "AW1",
+          "phone_distance": 0.3724480312374309
+        },
+        "B": {
+          "mapping": "b",
+          "learner_phone": "B",
+          "phone_distance": 0.294238096193234
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.37215955581616883
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.35000245018041337
+        },
+        "EH0": {
+          "mapping": "e",
+          "learner_phone": "EH0",
+          "phone_distance": 0.3225521259836039
+        }
+      }
+    },
+    "tiko": {
+      "learner_word": "tiko",
+      "word_distance": 0.28454555216210153,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.27741743498640015
+        },
+        "IY1": {
+          "mapping": "i",
+          "learner_phone": "IY1",
+          "phone_distance": 0.3741179393778754
+        },
+        "K": {
+          "mapping": "k",
+          "learner_phone": "K",
+          "phone_distance": 0.37351123919648876
+        },
+        "AO0": {
+          "mapping": "o",
+          "learner_phone": "AO0",
+          "phone_distance": 0.26683681042144775
+        }
+      }
+    },
+    "na": {
+      "learner_word": "na",
+      "word_distance": 0.2842546195445043,
+      "phones_distances": {
+        "N": {
+          "mapping": "n",
+          "learner_phone": "N",
+          "phone_distance": 0.3815557794150891
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.40831629713045076
+        }
+      }
+    },
+    "tagane": {
+      "learner_word": "tagane",
+      "word_distance": 0.2890201966486844,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.34135112154923575
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.43990208040140394
+        },
+        "NG": {
+          "mapping": "g",
+          "learner_phone": "NG",
+          "phone_distance": 0.2930764022026719
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.353523130435406
+        },
+        "N": {
+          "mapping": "n",
+          "learner_phone": "N",
+          "phone_distance": 0.3461795339546864
+        },
+        "EH0": {
+          "mapping": "e",
+          "learner_phone": "EH0",
+          "phone_distance": 0.38599384089497596
+        }
+      }
+    }
+  }
+}

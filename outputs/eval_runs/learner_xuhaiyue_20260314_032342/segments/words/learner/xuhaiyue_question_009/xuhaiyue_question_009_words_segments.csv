@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+xuhaiyue_question_009,words,0,e,0.85,1.02,0.17000000000000004,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_032342/segments/words/learner/xuhaiyue_question_009/000_e.wav
+xuhaiyue_question_009,words,1,dānisi,1.11,1.64,0.5299999999999998,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_032342/segments/words/learner/xuhaiyue_question_009/001_dānisi.wav
+xuhaiyue_question_009,words,2,tiko,1.64,2.04,0.40000000000000013,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_032342/segments/words/learner/xuhaiyue_question_009/002_tiko.wav
+xuhaiyue_question_009,words,3,na,2.04,2.24,0.20000000000000018,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_032342/segments/words/learner/xuhaiyue_question_009/003_na.wav
+xuhaiyue_question_009,words,4,yalewa,2.24,2.96,0.7199999999999998,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_032342/segments/words/learner/xuhaiyue_question_009/004_yalewa.wav

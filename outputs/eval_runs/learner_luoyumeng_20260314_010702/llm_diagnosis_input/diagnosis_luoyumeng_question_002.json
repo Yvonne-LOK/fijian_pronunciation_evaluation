@@ -1,0 +1,74 @@
+{
+  "pair_id": "u1_l1_003__luoyumeng_question_002",
+  "reference_id": "u1_l1_003",
+  "learner_id": "luoyumeng_question_002",
+  "reference_text": "e dua na yalewa",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 68.28928165115703,
+    "dtw_norm_distance_dimnorm": 0.2786236562753805,
+    "needs_diagnosis": true,
+    "matched_word_segments": 4,
+    "matched_phone_segments": 12
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "yalewa",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2740170752299897
+    },
+    {
+      "word": "na",
+      "word_score_relative": 33.261904861851946,
+      "word_dtw_norm_distance_dimnorm": 0.298621101378431
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "e",
+      "word_label_learner": "e",
+      "seg_idx": 0,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.3108836146442641,
+      "ref_start": 0.44,
+      "ref_end": 0.64,
+      "learner_start": 0.5,
+      "learner_end": 0.62,
+      "weak_phones": []
+    },
+    {
+      "word": "dua",
+      "word_label_learner": "dua",
+      "seg_idx": 1,
+      "word_score_relative": 4.948270898125574,
+      "word_dtw_norm_distance_dimnorm": 0.3090593584032816,
+      "ref_start": 0.64,
+      "ref_end": 0.97,
+      "learner_start": 0.62,
+      "learner_end": 0.98,
+      "weak_phones": [
+        {
+          "phone": "UW1",
+          "phone_label_learner": "UW1",
+          "seg_idx": 2,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.3159277831564584,
+          "ref_start": 0.72,
+          "ref_end": 0.9
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

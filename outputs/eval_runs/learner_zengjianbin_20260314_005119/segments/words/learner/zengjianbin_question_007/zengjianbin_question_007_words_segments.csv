@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+zengjianbin_question_007,words,0,e,1.17,1.37,0.20000000000000018,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_007/000_e.wav
+zengjianbin_question_007,words,1,cici,1.37,1.7,0.32999999999999985,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_007/001_cici.wav
+zengjianbin_question_007,words,2,tiko,1.7,2.09,0.3899999999999999,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_007/002_tiko.wav
+zengjianbin_question_007,words,3,na,2.09,2.28,0.18999999999999995,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_007/003_na.wav
+zengjianbin_question_007,words,4,yalewa,2.28,2.96,0.6800000000000002,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_007/004_yalewa.wav

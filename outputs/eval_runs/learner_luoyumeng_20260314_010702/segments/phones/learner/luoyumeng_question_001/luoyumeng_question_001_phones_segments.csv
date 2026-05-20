@@ -1,0 +1,5 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+luoyumeng_question_001,phones,0,B,0.77,0.81,0.040000000000000036,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_010702/segments/phones/learner/luoyumeng_question_001/000_B.wav
+luoyumeng_question_001,phones,1,UW1,0.81,0.89,0.07999999999999996,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_010702/segments/phones/learner/luoyumeng_question_001/001_UW1.wav
+luoyumeng_question_001,phones,2,L,0.89,0.97,0.07999999999999996,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_010702/segments/phones/learner/luoyumeng_question_001/002_L.wav
+luoyumeng_question_001,phones,3,AA0,0.97,1.05,0.08000000000000007,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_010702/segments/phones/learner/luoyumeng_question_001/003_AA0.wav

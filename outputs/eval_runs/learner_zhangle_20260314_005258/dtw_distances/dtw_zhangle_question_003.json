@@ -1,0 +1,91 @@
+{
+  "pair_id": "u1_l1_004__zhangle_question_003",
+  "sentence_text": "e dua na tagane",
+  "sentence_distance": 0.26233820689224807,
+  "words": {
+    "e": {
+      "learner_word": "e",
+      "word_distance": 0.3477029485885998,
+      "phones_distances": {
+        "EH1": {
+          "mapping": "e",
+          "learner_phone": "EH1",
+          "phone_distance": 0.3477029485885998
+        }
+      }
+    },
+    "dua": {
+      "learner_word": "dua",
+      "word_distance": 0.2607947744710915,
+      "phones_distances": {
+        "D": {
+          "mapping": "d",
+          "learner_phone": "D",
+          "phone_distance": 0.2583471732984208
+        },
+        "UW1": {
+          "mapping": "u",
+          "learner_phone": "UW1",
+          "phone_distance": 0.27881696563331926
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.2987305354356195
+        }
+      }
+    },
+    "na": {
+      "learner_word": "na",
+      "word_distance": 0.35370434581586907,
+      "phones_distances": {
+        "N": {
+          "mapping": "n",
+          "learner_phone": "N",
+          "phone_distance": 0.31180181992052614
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.317745291798949
+        }
+      }
+    },
+    "tagane": {
+      "learner_word": "tagane",
+      "word_distance": 0.28325825648555075,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.24303991234959796
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.2636879730811992
+        },
+        "NG": {
+          "mapping": "g",
+          "learner_phone": "NG",
+          "phone_distance": 0.2869200352637122
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.29986094550199943
+        },
+        "N": {
+          "mapping": "n",
+          "learner_phone": "N",
+          "phone_distance": 0.35143955204196475
+        },
+        "EH0": {
+          "mapping": "e",
+          "learner_phone": "EH0",
+          "phone_distance": 0.3221724105040817
+        }
+      }
+    }
+  }
+}

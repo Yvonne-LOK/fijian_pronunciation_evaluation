@@ -1,0 +1,2 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+guoziyu_question_001,words,0,bula,1.28,1.78,0.5,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/words/learner/guoziyu_question_001/000_bula.wav

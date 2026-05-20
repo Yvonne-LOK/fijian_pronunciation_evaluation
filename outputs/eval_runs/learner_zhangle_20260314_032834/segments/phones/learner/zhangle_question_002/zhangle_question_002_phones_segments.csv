@@ -1,0 +1,13 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+zhangle_question_002,phones,0,EH1,0.32,0.64,0.32,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/000_EH1.wav
+zhangle_question_002,phones,1,D,0.64,0.75,0.10999999999999999,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/001_D.wav
+zhangle_question_002,phones,2,UW1,0.75,0.89,0.14,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/002_UW1.wav
+zhangle_question_002,phones,3,AA0,0.89,1.0,0.10999999999999999,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/003_AA0.wav
+zhangle_question_002,phones,4,N,1.0,1.22,0.21999999999999997,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/004_N.wav
+zhangle_question_002,phones,5,AA1,1.22,1.28,0.06000000000000005,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/005_AA1.wav
+zhangle_question_002,phones,6,Y,1.28,1.31,0.030000000000000027,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/006_Y.wav
+zhangle_question_002,phones,7,AA0,1.31,1.34,0.030000000000000027,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/007_AA0.wav
+zhangle_question_002,phones,8,L,1.34,1.46,0.11999999999999988,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/008_L.wav
+zhangle_question_002,phones,9,EH1,1.46,1.59,0.13000000000000012,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/009_EH1.wav
+zhangle_question_002,phones,10,W,1.59,1.68,0.08999999999999986,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/010_W.wav
+zhangle_question_002,phones,11,AA0,1.68,1.98,0.30000000000000004,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/phones/learner/zhangle_question_002/011_AA0.wav

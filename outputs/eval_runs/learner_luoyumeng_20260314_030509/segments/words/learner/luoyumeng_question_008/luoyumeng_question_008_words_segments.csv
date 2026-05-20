@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+luoyumeng_question_008,words,0,e,0.46,0.56,0.10000000000000003,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/words/learner/luoyumeng_question_008/000_e.wav
+luoyumeng_question_008,words,1,lagasere,0.56,1.34,0.78,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/words/learner/luoyumeng_question_008/001_lagasere.wav
+luoyumeng_question_008,words,2,tiko,1.42,1.71,0.29000000000000004,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/words/learner/luoyumeng_question_008/002_tiko.wav
+luoyumeng_question_008,words,3,na,1.71,1.9,0.18999999999999995,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/words/learner/luoyumeng_question_008/003_na.wav
+luoyumeng_question_008,words,4,tagane,1.9,2.56,0.6600000000000001,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/words/learner/luoyumeng_question_008/004_tagane.wav

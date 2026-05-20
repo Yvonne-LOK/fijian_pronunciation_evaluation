@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+u1_l1_008,words,0,e,0.31,0.38,0.07,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/words/reference/u1_l1_008/000_e.wav
+u1_l1_008,words,1,taubale,0.38,1.04,0.66,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/words/reference/u1_l1_008/001_taubale.wav
+u1_l1_008,words,2,tiko,1.04,1.42,0.3799999999999999,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/words/reference/u1_l1_008/002_tiko.wav
+u1_l1_008,words,3,na,1.42,1.58,0.16000000000000014,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/words/reference/u1_l1_008/003_na.wav
+u1_l1_008,words,4,tagane,1.58,2.21,0.6299999999999999,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/words/reference/u1_l1_008/004_tagane.wav

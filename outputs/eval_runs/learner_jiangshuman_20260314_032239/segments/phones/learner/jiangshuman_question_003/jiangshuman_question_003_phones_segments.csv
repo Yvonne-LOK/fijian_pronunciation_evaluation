@@ -1,0 +1,13 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+jiangshuman_question_003,phones,0,EH1,0.4,0.75,0.35,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/000_EH1.wav
+jiangshuman_question_003,phones,1,D,1.0,1.04,0.040000000000000036,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/001_D.wav
+jiangshuman_question_003,phones,2,UW1,1.04,1.22,0.17999999999999994,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/002_UW1.wav
+jiangshuman_question_003,phones,3,AA0,1.22,1.56,0.3400000000000001,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/003_AA0.wav
+jiangshuman_question_003,phones,4,N,1.56,1.67,0.10999999999999988,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/004_N.wav
+jiangshuman_question_003,phones,5,AA1,1.67,1.75,0.08000000000000007,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/005_AA1.wav
+jiangshuman_question_003,phones,6,T,1.75,1.86,0.1100000000000001,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/006_T.wav
+jiangshuman_question_003,phones,7,AA1,1.86,1.91,0.04999999999999982,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/007_AA1.wav
+jiangshuman_question_003,phones,8,NG,1.91,2.03,0.11999999999999988,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/008_NG.wav
+jiangshuman_question_003,phones,9,AA0,2.03,2.17,0.14000000000000012,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/009_AA0.wav
+jiangshuman_question_003,phones,10,N,2.17,2.28,0.10999999999999988,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/010_N.wav
+jiangshuman_question_003,phones,11,EH0,2.28,2.34,0.06000000000000005,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239/segments/phones/learner/jiangshuman_question_003/011_EH0.wav

@@ -1,0 +1,21 @@
+{
+  "num_pairs": 10,
+  "num_ok_pairs": 10,
+  "mean_sentence_score": 8.86303940013419e-15,
+  "mean_sentence_score_new_relative": 64.94509835475226,
+  "mean_phone_score": 6.000336181662501e-15,
+  "mean_phone_score_new_relative": 57.074783580705244,
+  "mean_word_score": 9.118198093781638e-15,
+  "mean_word_score_new_relative": 39.43322886799329,
+  "mean_overall_score": 7.993857891859442e-15,
+  "mean_overall_score_new_relative": 53.817703601150264,
+  "output_dir": "/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858",
+  "mean_sentence_score_percent": "0.00%",
+  "mean_sentence_score_new_relative_percent": "64.95%",
+  "mean_phone_score_percent": "0.00%",
+  "mean_phone_score_new_relative_percent": "57.07%",
+  "mean_word_score_percent": "0.00%",
+  "mean_word_score_new_relative_percent": "39.43%",
+  "mean_overall_score_percent": "0.00%",
+  "mean_overall_score_new_relative_percent": "53.82%"
+}

@@ -1,0 +1,74 @@
+{
+  "pair_id": "u1_l1_007__zhangle_question_004",
+  "reference_id": "u1_l1_007",
+  "learner_id": "zhangle_question_004",
+  "reference_text": "e cici tiko na tagane",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 26.306050828928687,
+    "dtw_norm_distance_dimnorm": 0.2856182797073094,
+    "needs_diagnosis": true,
+    "matched_word_segments": 5,
+    "matched_phone_segments": 17
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "tiko",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2761862470864769
+    },
+    {
+      "word": "cici",
+      "word_score_relative": 83.32792145167127,
+      "word_dtw_norm_distance_dimnorm": 0.2882686656131563
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "e",
+      "word_label_learner": "e",
+      "seg_idx": 0,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.3486572259848494,
+      "ref_start": 0.3,
+      "ref_end": 0.43,
+      "learner_start": 0.36,
+      "learner_end": 0.42,
+      "weak_phones": []
+    },
+    {
+      "word": "na",
+      "word_label_learner": "na",
+      "seg_idx": 3,
+      "word_score_relative": 5.995386002951699,
+      "word_dtw_norm_distance_dimnorm": 0.3443123110597743,
+      "ref_start": 1.18,
+      "ref_end": 1.35,
+      "learner_start": 1.51,
+      "learner_end": 1.73,
+      "weak_phones": [
+        {
+          "phone": "AA1",
+          "phone_label_learner": "AA1",
+          "seg_idx": 10,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.3368423738219979,
+          "ref_start": 1.29,
+          "ref_end": 1.35
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

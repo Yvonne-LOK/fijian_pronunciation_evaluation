@@ -1,0 +1,83 @@
+{
+  "pair_id": "u1_l1_010__luoyumeng2_question_007",
+  "reference_id": "u1_l1_010",
+  "learner_id": "luoyumeng2_question_007",
+  "reference_text": "e cici tiko na yalewa",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 18.831232059818863,
+    "dtw_norm_distance_dimnorm": 0.2928352371491278,
+    "needs_diagnosis": true,
+    "matched_word_segments": 5,
+    "matched_phone_segments": 17
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "na",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2682607090428203
+    },
+    {
+      "word": "tiko",
+      "word_score_relative": 97.95111607183198,
+      "word_dtw_norm_distance_dimnorm": 0.2700191669163448
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "e",
+      "word_label_learner": "e",
+      "seg_idx": 0,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.3540858672838149,
+      "ref_start": 0.65,
+      "ref_end": 0.77,
+      "learner_start": 0.71,
+      "learner_end": 0.8,
+      "weak_phones": []
+    },
+    {
+      "word": "cici",
+      "word_label_learner": "cici",
+      "seg_idx": 1,
+      "word_score_relative": 34.70602469665008,
+      "word_dtw_norm_distance_dimnorm": 0.3242993666687563,
+      "ref_start": 0.77,
+      "ref_end": 1.13,
+      "learner_start": 0.8,
+      "learner_end": 1.23,
+      "weak_phones": [
+        {
+          "phone": "IY0",
+          "phone_label_learner": "IY0",
+          "seg_idx": 4,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.3356094203995652,
+          "ref_start": 1.07,
+          "ref_end": 1.13
+        },
+        {
+          "phone": "IY1",
+          "phone_label_learner": "IY1",
+          "seg_idx": 2,
+          "phone_score_relative": 4.381869635831183,
+          "phone_dtw_norm_distance_dimnorm": 0.3323851219547969,
+          "ref_start": 0.85,
+          "ref_end": 0.96
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

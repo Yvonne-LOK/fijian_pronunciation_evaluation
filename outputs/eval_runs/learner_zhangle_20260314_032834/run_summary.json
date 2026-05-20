@@ -1,0 +1,21 @@
+{
+  "num_pairs": 10,
+  "num_ok_pairs": 10,
+  "mean_sentence_score": 8.478805671033005e-18,
+  "mean_sentence_score_new_relative": 45.755777927202466,
+  "mean_phone_score": 0.5263157894737518,
+  "mean_phone_score_new_relative": 52.73206278935775,
+  "mean_word_score": 3.26583382991068e-18,
+  "mean_word_score_new_relative": 49.028377600325726,
+  "mean_overall_score": 0.17543859649125063,
+  "mean_overall_score_new_relative": 49.172072772295316,
+  "output_dir": "/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834",
+  "mean_sentence_score_percent": "0.00%",
+  "mean_sentence_score_new_relative_percent": "45.76%",
+  "mean_phone_score_percent": "0.53%",
+  "mean_phone_score_new_relative_percent": "52.73%",
+  "mean_word_score_percent": "0.00%",
+  "mean_word_score_new_relative_percent": "49.03%",
+  "mean_overall_score_percent": "0.18%",
+  "mean_overall_score_new_relative_percent": "49.17%"
+}

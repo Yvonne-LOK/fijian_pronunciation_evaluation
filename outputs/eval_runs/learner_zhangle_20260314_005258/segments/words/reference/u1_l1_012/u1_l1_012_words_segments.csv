@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+u1_l1_012,words,0,e,0.18,0.37,0.19,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/words/reference/u1_l1_012/000_e.wav
+u1_l1_012,words,1,dānisi,0.37,0.94,0.57,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/words/reference/u1_l1_012/001_dānisi.wav
+u1_l1_012,words,2,tiko,0.94,1.31,0.3700000000000001,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/words/reference/u1_l1_012/002_tiko.wav
+u1_l1_012,words,3,na,1.31,1.51,0.19999999999999996,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/words/reference/u1_l1_012/003_na.wav
+u1_l1_012,words,4,yalewa,1.51,2.08,0.5700000000000001,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_005258/segments/words/reference/u1_l1_012/004_yalewa.wav

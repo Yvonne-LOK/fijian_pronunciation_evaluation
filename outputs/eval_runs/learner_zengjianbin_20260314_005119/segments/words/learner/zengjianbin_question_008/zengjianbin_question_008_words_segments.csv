@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+zengjianbin_question_008,words,0,e,0.49,0.52,0.030000000000000027,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_008/000_e.wav
+zengjianbin_question_008,words,1,lagasere,1.24,2.11,0.8699999999999999,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_008/001_lagasere.wav
+zengjianbin_question_008,words,2,tiko,2.11,2.53,0.41999999999999993,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_008/002_tiko.wav
+zengjianbin_question_008,words,3,na,2.53,2.75,0.2200000000000002,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_008/003_na.wav
+zengjianbin_question_008,words,4,tagane,2.75,3.41,0.6600000000000001,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/words/learner/zengjianbin_question_008/004_tagane.wav

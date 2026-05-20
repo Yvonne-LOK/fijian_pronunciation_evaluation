@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fijian Pronunciation FeedBack</title>
+  <style>
+    :root {
+      --bg: #f3eee4;
+      --card: rgba(255,255,255,0.9);
+      --ink: #1f2a24;
+      --muted: #66756c;
+      --border: rgba(31,42,36,0.12);
+      --good: #1f8a4c;
+      --mid: #c28d12;
+      --bad: #c43a2f;
+      --neutral: #39423d;
+      --pass-bg: rgba(31, 138, 76, 0.12);
+      --fail-bg: rgba(196, 58, 47, 0.12);
+      --pending-bg: rgba(57, 66, 61, 0.1);
+      --shadow: 0 18px 45px rgba(43, 37, 26, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(210, 175, 132, 0.28), transparent 28%),
+        radial-gradient(circle at top right, rgba(91, 146, 115, 0.18), transparent 22%),
+        linear-gradient(180deg, #fbf7f0 0%, var(--bg) 100%);
+    }
+    .page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 32px 20px 72px;
+    }
+    .hero {
+      margin-bottom: 26px;
+      padding: 28px 30px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(246,240,231,0.88));
+      box-shadow: var(--shadow);
+    }
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      line-height: 1.15;
+    }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .legend-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 7px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      border: 1px solid rgba(0,0,0,0.06);
+      background: rgba(255,255,255,0.75);
+    }
+    .cards {
+      display: grid;
+      gap: 20px;
+    }
+    .card {
+      padding: 24px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(8px);
+    }
+    .card-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: start;
+    }
+    .eyebrow {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .card h2 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.25;
+    }
+    .translation {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .status-chip {
+      flex-shrink: 0;
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 800;
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+    .status-pass {
+      color: var(--good);
+      background: var(--pass-bg);
+    }
+    .status-fail {
+      color: var(--bad);
+      background: var(--fail-bg);
+    }
+    .status-pending {
+      color: var(--neutral);
+      background: var(--pending-bg);
+    }
+    .audio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin: 18px 0 20px;
+    }
+    .audio-box {
+      padding: 14px;
+      border-radius: 18px;
+      background: rgba(245, 240, 232, 0.92);
+      border: 1px solid rgba(31,42,36,0.08);
+    }
+    .audio-label {
+      margin-bottom: 8px;
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    audio {
+      width: 100%;
+    }
+    .rendered-line {
+      font-size: 31px;
+      line-height: 1.9;
+      letter-spacing: 0.02em;
+      padding: 18px 20px;
+      border-radius: 20px;
+      background: rgba(255,255,255,0.65);
+      border: 1px dashed rgba(31,42,36,0.12);
+    }
+    .word {
+      display: inline-block;
+      margin-right: 0.15em;
+      font-weight: 700;
+    }
+    .word-fragmented {
+      padding: 0 0.03em;
+    }
+    .phone-piece {
+      display: inline-block;
+      border-bottom: 2px solid currentColor;
+      margin: 0 0.01em;
+    }
+    .tone-good { color: var(--good); }
+    .tone-mid { color: var(--mid); }
+    .tone-bad { color: var(--bad); }
+    .tone-neutral { color: var(--neutral); }
+    .feedback-box {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: rgba(244, 239, 230, 0.95);
+      border: 1px solid rgba(31,42,36,0.08);
+    }
+    .feedback-title {
+      margin-bottom: 8px;
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+    .feedback-text {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 15px;
+    }
+    @media (max-width: 720px) {
+      .page { padding: 18px 14px 42px; }
+      .hero, .card { padding: 18px; }
+      .card-head { flex-direction: column; }
+      .card h2 { font-size: 24px; }
+      .rendered-line { font-size: 26px; line-height: 1.7; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <h1>Fijian Pronunciation FeedBack</h1>
+      <div class="legend">
+        <span class="legend-pill tone-good">绿色：表现很好，继续保持</span>
+        <span class="legend-pill tone-mid">黄色：表现达标，继续进步</span>
+        <span class="legend-pill tone-bad">红色：发音有误，需要纠正</span>
+      </div>
+    </section>
+    <section class="cards">
+      
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 001</div>
+          <h2>bula</h2>
+          <p class="translation">你好。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_001.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_001.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-good">bula</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 002</div>
+          <h2>e dua na yalewa</h2>
+          <p class="translation">这是一个女人。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_003.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_002.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-good">e</span> <span class="word tone-good">dua</span> <span class="word tone-good">na</span> <span class="word tone-good">yalewa</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 003</div>
+          <h2>e dua na tagane</h2>
+          <p class="translation">这是一个男人。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_004.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_003.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-mid">e</span> <span class="word tone-good">dua</span> <span class="word tone-good">na</span> <span class="word tone-good">tagane</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 004</div>
+          <h2>e cici tiko na tagane</h2>
+          <p class="translation">那个男人正在跑步。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_007.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_004.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-good">e</span> <span class="word tone-mid">cici</span> <span class="word tone-good">tiko</span> <span class="word tone-good">na</span> <span class="word tone-mid">tagane</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 005</div>
+          <h2>e taubale tiko na tagane</h2>
+          <p class="translation">那个男人正在跳跃。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_008.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_005.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-good">e</span> <span class="word tone-good">taubale</span> <span class="word tone-good">tiko</span> <span class="word tone-good">na</span> <span class="word tone-good">tagane</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 006</div>
+          <h2>e taubale tiko na yalewa</h2>
+          <p class="translation">那个女人正在跳跃。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_009.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_006.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-mid">e</span> <span class="word tone-good">taubale</span> <span class="word tone-good">tiko</span> <span class="word tone-good">na</span> <span class="word tone-mid">yalewa</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 007</div>
+          <h2>e cici tiko na yalewa</h2>
+          <p class="translation">那个女人正在跑步。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_010.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_007.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-mid">e</span> <span class="word tone-mid">cici</span> <span class="word tone-good">tiko</span> <span class="word tone-mid">na</span> <span class="word tone-mid">yalewa</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 008</div>
+          <h2>e lagasere tiko na tagane</h2>
+          <p class="translation">那个男人正在唱歌。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_011.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_008.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-good">e</span> <span class="word tone-good">lagasere</span> <span class="word tone-good">tiko</span> <span class="word tone-good">na</span> <span class="word tone-good">tagane</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 009</div>
+          <h2>e dānisi tiko na yalewa</h2>
+          <p class="translation">那个女人正在跳舞。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_012.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_009.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-good">e</span> <span class="word tone-good">dānisi</span> <span class="word tone-good">tiko</span> <span class="word tone-good">na</span> <span class="word tone-good">yalewa</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+
+    <article class="card">
+      <div class="card-head">
+        <div>
+          <div class="eyebrow">Question 010</div>
+          <h2>e lagasere tiko na yalewa</h2>
+          <p class="translation">那个女人正在唱歌。</p>
+        </div>
+        <div class="status-chip status-pass">通过 √</div>
+      </div>
+
+      <div class="audio-grid">
+        <div class="audio-box">
+          <div class="audio-label">标准音频</div>
+          <audio controls preload="none" src="audio/reference/u1_l1_013.wav"></audio>
+        </div>
+        <div class="audio-box">
+          <div class="audio-label">学生录音</div>
+          <audio controls preload="none" src="audio/learner/zengjianbin_question_010.wav"></audio>
+        </div>
+      </div>
+
+      <div class="rendered-line">
+        <span class="word tone-good">e</span> <span class="word tone-good">lagasere</span> <span class="word tone-good">tiko</span> <span class="word tone-good">na</span> <span class="word tone-good">yalewa</span>
+      </div>
+
+      
+      <section class="feedback-box">
+        <div class="feedback-title">评测反馈</div>
+        <p class="feedback-text">
+          整体读得不错！建议重点关注个别发音片段。后续可以在这里补充更自然的句级反馈，例如指出哪个单词或字母片段需要重点练习，并配合标准音频再次跟读。
+        </p>
+      </section>
+    
+    </article>
+    
+    </section>
+  </main>
+</body>
+</html>

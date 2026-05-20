@@ -1,0 +1,26 @@
+{
+  "sentence": {
+    "mean": 0.26663170667067676,
+    "std": 0.02184698103011052,
+    "count": 70
+  },
+  "word": {
+    "mean": 0.2980024773011386,
+    "std": 0.03172237163674513,
+    "count": 308
+  },
+  "phone": {
+    "mean": 0.31222400607816847,
+    "std": 0.04399239454448589,
+    "count": 1127
+  },
+  "source_files": [
+    "D:\\workdir\\outputs\\eval_runs\\learner_guoziyu_20260314_002834\\dtw_distances\\dtw_distances.jsonl",
+    "D:\\workdir\\outputs\\eval_runs\\learner_jiangshuman_20260314_004627\\dtw_distances\\dtw_distances.jsonl",
+    "D:\\workdir\\outputs\\eval_runs\\learner_luoyumeng2_20260314_010605\\dtw_distances\\dtw_distances.jsonl",
+    "D:\\workdir\\outputs\\eval_runs\\learner_luoyumeng_20260314_010702\\dtw_distances\\dtw_distances.jsonl",
+    "D:\\workdir\\outputs\\eval_runs\\learner_xuhaiyue_20260314_004906\\dtw_distances\\dtw_distances.jsonl",
+    "D:\\workdir\\outputs\\eval_runs\\learner_zengjianbin_20260314_005119\\dtw_distances\\dtw_distances.jsonl",
+    "D:\\workdir\\outputs\\eval_runs\\learner_zhangle_20260314_005258\\dtw_distances\\dtw_distances.jsonl"
+  ]
+}

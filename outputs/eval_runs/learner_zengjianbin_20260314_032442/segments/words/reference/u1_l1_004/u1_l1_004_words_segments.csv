@@ -1,0 +1,5 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+u1_l1_004,words,0,e,0.25,0.37,0.12,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_032442/segments/words/reference/u1_l1_004/000_e.wav
+u1_l1_004,words,1,dua,0.37,0.81,0.44000000000000006,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_032442/segments/words/reference/u1_l1_004/001_dua.wav
+u1_l1_004,words,2,na,0.81,1.02,0.20999999999999996,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_032442/segments/words/reference/u1_l1_004/002_na.wav
+u1_l1_004,words,3,tagane,1.13,1.7,0.5700000000000001,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_032442/segments/words/reference/u1_l1_004/003_tagane.wav

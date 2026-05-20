@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+u1_l1_010,words,0,e,0.65,0.77,0.12,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng2_20260314_031329/segments/words/reference/u1_l1_010/000_e.wav
+u1_l1_010,words,1,cici,0.77,1.13,0.3599999999999999,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng2_20260314_031329/segments/words/reference/u1_l1_010/001_cici.wav
+u1_l1_010,words,2,tiko,1.13,1.49,0.3600000000000001,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng2_20260314_031329/segments/words/reference/u1_l1_010/002_tiko.wav
+u1_l1_010,words,3,na,1.49,1.7,0.20999999999999996,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng2_20260314_031329/segments/words/reference/u1_l1_010/003_na.wav
+u1_l1_010,words,4,yalewa,1.7,2.34,0.6399999999999999,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng2_20260314_031329/segments/words/reference/u1_l1_010/004_yalewa.wav

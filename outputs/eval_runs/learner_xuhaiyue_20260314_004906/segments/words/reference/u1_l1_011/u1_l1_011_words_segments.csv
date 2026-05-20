@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+u1_l1_011,words,0,e,0.46,0.56,0.10000000000000003,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_004906/segments/words/reference/u1_l1_011/000_e.wav
+u1_l1_011,words,1,lagasere,0.56,1.31,0.75,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_004906/segments/words/reference/u1_l1_011/001_lagasere.wav
+u1_l1_011,words,2,tiko,1.31,1.7,0.3899999999999999,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_004906/segments/words/reference/u1_l1_011/002_tiko.wav
+u1_l1_011,words,3,na,1.7,1.88,0.17999999999999994,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_004906/segments/words/reference/u1_l1_011/003_na.wav
+u1_l1_011,words,4,tagane,1.88,2.52,0.6400000000000001,/mnt/d/workdir/outputs/eval_runs/learner_xuhaiyue_20260314_004906/segments/words/reference/u1_l1_011/004_tagane.wav

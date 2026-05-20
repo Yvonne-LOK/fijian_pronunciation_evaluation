@@ -1,0 +1,21 @@
+{
+  "num_pairs": 10,
+  "num_ok_pairs": 10,
+  "mean_sentence_score": 2.900585049984751e-17,
+  "mean_sentence_score_new_relative": 52.13708063287428,
+  "mean_phone_score": 4.5567253455234864e-14,
+  "mean_phone_score_new_relative": 52.19301260472287,
+  "mean_word_score": 1.976946232848932e-18,
+  "mean_word_score_new_relative": 49.95249961139557,
+  "mean_overall_score": 1.5199412083989187e-14,
+  "mean_overall_score_new_relative": 51.42753094966423,
+  "output_dir": "/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng2_20260314_010605",
+  "mean_sentence_score_percent": "0.00%",
+  "mean_sentence_score_new_relative_percent": "52.14%",
+  "mean_phone_score_percent": "0.00%",
+  "mean_phone_score_new_relative_percent": "52.19%",
+  "mean_word_score_percent": "0.00%",
+  "mean_word_score_new_relative_percent": "49.95%",
+  "mean_overall_score_percent": "0.00%",
+  "mean_overall_score_new_relative_percent": "51.43%"
+}

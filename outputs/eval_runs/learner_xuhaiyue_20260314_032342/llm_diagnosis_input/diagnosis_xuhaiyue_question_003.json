@@ -1,0 +1,39 @@
+{
+  "pair_id": "u1_l1_004__xuhaiyue_question_003",
+  "reference_id": "u1_l1_004",
+  "learner_id": "xuhaiyue_question_003",
+  "reference_text": "e dua na tagane",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 100.0,
+    "dtw_norm_distance_dimnorm": 0.2472264891704313,
+    "needs_diagnosis": false,
+    "matched_word_segments": 4,
+    "matched_phone_segments": 12
+  },
+  "drill_down_level": "sentence_only",
+  "strong_words": [
+    {
+      "word": "dua",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2438890762709339
+    },
+    {
+      "word": "tagane",
+      "word_score_relative": 64.33250769124874,
+      "word_dtw_norm_distance_dimnorm": 0.2905089435565248
+    }
+  ],
+  "weak_words": [],
+  "notes": [
+    "Sentence score passed the threshold; do not drill down for negative diagnosis by default."
+  ]
+}

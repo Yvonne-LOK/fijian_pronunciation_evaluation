@@ -1,0 +1,33 @@
+{
+  "pair_id": "u1_l1_001__zengjianbin_question_001",
+  "sentence_text": "bula",
+  "sentence_distance": 0.2821641424699634,
+  "words": {
+    "bula": {
+      "learner_word": "bula",
+      "word_distance": 0.2821641424699634,
+      "phones_distances": {
+        "B": {
+          "mapping": "b",
+          "learner_phone": "B",
+          "phone_distance": 0.2571628642077137
+        },
+        "UW1": {
+          "mapping": "u",
+          "learner_phone": "UW1",
+          "phone_distance": 0.3858676749380631
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.3242249071494985
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.3260828971377125
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "pair_id": "u1_l1_003__luoyumeng2_question_002",
+  "reference_id": "u1_l1_003",
+  "learner_id": "luoyumeng2_question_002",
+  "reference_text": "e dua na yalewa",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 0.0,
+    "dtw_norm_distance_dimnorm": 0.3104638335949369,
+    "needs_diagnosis": true,
+    "matched_word_segments": 4,
+    "matched_phone_segments": 12
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "e",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2735063863130894
+    },
+    {
+      "word": "na",
+      "word_score_relative": 81.43475621598319,
+      "word_dtw_norm_distance_dimnorm": 0.2813623363081087
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "dua",
+      "word_label_learner": "dua",
+      "seg_idx": 1,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.3158217476755007,
+      "ref_start": 0.64,
+      "ref_end": 0.97,
+      "learner_start": 0.76,
+      "learner_end": 1.22,
+      "weak_phones": [
+        {
+          "phone": "UW1",
+          "phone_label_learner": "UW1",
+          "seg_idx": 2,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.3364728542961376,
+          "ref_start": 0.72,
+          "ref_end": 0.9
+        },
+        {
+          "phone": "AA0",
+          "phone_label_learner": "AA0",
+          "seg_idx": 3,
+          "phone_score_relative": 65.72619350791024,
+          "phone_dtw_norm_distance_dimnorm": 0.2766113026589527,
+          "ref_start": 0.9,
+          "ref_end": 0.97
+        }
+      ]
+    },
+    {
+      "word": "yalewa",
+      "word_label_learner": "yalewa",
+      "seg_idx": 3,
+      "word_score_relative": 62.595405378874716,
+      "word_dtw_norm_distance_dimnorm": 0.2893342756931636,
+      "ref_start": 1.19,
+      "ref_end": 1.93,
+      "learner_start": 1.47,
+      "learner_end": 2.09,
+      "weak_phones": [
+        {
+          "phone": "L",
+          "phone_label_learner": "L",
+          "seg_idx": 8,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.3631372403360006,
+          "ref_start": 1.48,
+          "ref_end": 1.54
+        },
+        {
+          "phone": "EH1",
+          "phone_label_learner": "EH1",
+          "seg_idx": 9,
+          "phone_score_relative": 14.369800205620791,
+          "phone_dtw_norm_distance_dimnorm": 0.3511156284358341,
+          "ref_start": 1.54,
+          "ref_end": 1.63
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

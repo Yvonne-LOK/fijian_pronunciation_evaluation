@@ -1,0 +1,39 @@
+{
+  "pair_id": "u1_l1_001__zhangle_question_001",
+  "sentence_text": "bula",
+  "sentence_distance": 0.2863770118415099,
+  "sentence_score": 73.34679761882572,
+  "words": {
+    "bula": {
+      "learner_word": "bula",
+      "word_distance": 0.2863770118415099,
+      "word_score": 86.03122822972631,
+      "phones_distances": {
+        "B": {
+          "mapping": "b",
+          "learner_phone": "B",
+          "phone_distance": 0.36393628505497794,
+          "phone_score": 69.42065973879522
+        },
+        "UW1": {
+          "mapping": "u",
+          "learner_phone": "UW1",
+          "phone_distance": 0.29667568919585297,
+          "phone_score": 83.18088736450422
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.3346002876874516,
+          "phone_score": 75.42224203595232
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.2769768735158185,
+          "phone_score": 87.21088716233363
+        }
+      }
+    }
+  }
+}

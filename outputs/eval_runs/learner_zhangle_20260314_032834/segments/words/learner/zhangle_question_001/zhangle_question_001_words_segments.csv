@@ -1,0 +1,2 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+zhangle_question_001,words,0,bula,0.34,0.76,0.42,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/words/learner/zhangle_question_001/000_bula.wav

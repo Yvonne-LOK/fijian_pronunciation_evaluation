@@ -1,0 +1,5 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+jiangshuman_question_001,phones,0,B,0.38,0.43,0.04999999999999999,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/phones/learner/jiangshuman_question_001/000_B.wav
+jiangshuman_question_001,phones,1,UW1,0.43,0.49,0.06,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/phones/learner/jiangshuman_question_001/001_UW1.wav
+jiangshuman_question_001,phones,2,L,0.49,0.52,0.030000000000000027,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/phones/learner/jiangshuman_question_001/002_L.wav
+jiangshuman_question_001,phones,3,AA0,0.52,1.6,1.08,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/phones/learner/jiangshuman_question_001/003_AA0.wav

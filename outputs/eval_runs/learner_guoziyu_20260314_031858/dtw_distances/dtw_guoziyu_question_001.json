@@ -1,0 +1,39 @@
+{
+  "pair_id": "u1_l1_001__guoziyu_question_001",
+  "sentence_text": "bula",
+  "sentence_distance": 0.2958076847161307,
+  "sentence_score": 67.30342622290046,
+  "words": {
+    "bula": {
+      "learner_word": "bula",
+      "word_distance": 0.2958076847161307,
+      "word_score": 82.7610628458536,
+      "phones_distances": {
+        "B": {
+          "mapping": "b",
+          "learner_phone": "B",
+          "phone_distance": 0.3695472483235972,
+          "phone_score": 68.27276429140127
+        },
+        "UW1": {
+          "mapping": "u",
+          "learner_phone": "UW1",
+          "phone_distance": 0.3229563890270132,
+          "phone_score": 77.80436033228591
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.33923175620449425,
+          "phone_score": 74.4747324246891
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.30436486356780773,
+          "phone_score": 81.60782979252745
+        }
+      }
+    }
+  }
+}

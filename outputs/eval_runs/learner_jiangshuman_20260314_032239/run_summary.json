@@ -1,0 +1,21 @@
+{
+  "num_pairs": 10,
+  "num_ok_pairs": 10,
+  "mean_sentence_score": 5.795702820676112e-17,
+  "mean_sentence_score_new_relative": 58.02600507065214,
+  "mean_phone_score": 4.4787210835560955e-13,
+  "mean_phone_score_new_relative": 60.53103701447541,
+  "mean_word_score": 2.2673918800603685e-18,
+  "mean_word_score_new_relative": 45.66058076052381,
+  "mean_overall_score": 1.4931077759189877e-13,
+  "mean_overall_score_new_relative": 54.73920761521712,
+  "output_dir": "/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_032239",
+  "mean_sentence_score_percent": "0.00%",
+  "mean_sentence_score_new_relative_percent": "58.03%",
+  "mean_phone_score_percent": "0.00%",
+  "mean_phone_score_new_relative_percent": "60.53%",
+  "mean_word_score_percent": "0.00%",
+  "mean_word_score_new_relative_percent": "45.66%",
+  "mean_overall_score_percent": "0.00%",
+  "mean_overall_score_new_relative_percent": "54.74%"
+}

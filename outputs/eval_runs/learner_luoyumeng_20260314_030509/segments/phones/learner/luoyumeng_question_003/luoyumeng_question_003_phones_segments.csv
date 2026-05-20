@@ -1,0 +1,13 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+luoyumeng_question_003,phones,0,EH1,0.58,0.74,0.16000000000000003,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/000_EH1.wav
+luoyumeng_question_003,phones,1,D,0.74,0.85,0.10999999999999999,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/001_D.wav
+luoyumeng_question_003,phones,2,UW1,0.85,1.01,0.16000000000000003,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/002_UW1.wav
+luoyumeng_question_003,phones,3,AA0,1.01,1.1,0.09000000000000008,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/003_AA0.wav
+luoyumeng_question_003,phones,4,N,1.1,1.19,0.08999999999999986,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/004_N.wav
+luoyumeng_question_003,phones,5,AA1,1.19,1.31,0.1200000000000001,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/005_AA1.wav
+luoyumeng_question_003,phones,6,T,1.31,1.4,0.08999999999999986,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/006_T.wav
+luoyumeng_question_003,phones,7,AA1,1.4,1.51,0.1100000000000001,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/007_AA1.wav
+luoyumeng_question_003,phones,8,NG,1.51,1.59,0.08000000000000007,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/008_NG.wav
+luoyumeng_question_003,phones,9,AA0,1.59,1.72,0.1299999999999999,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/009_AA0.wav
+luoyumeng_question_003,phones,10,N,1.72,1.82,0.10000000000000009,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/010_N.wav
+luoyumeng_question_003,phones,11,EH0,1.82,1.89,0.06999999999999984,/mnt/d/workdir/outputs/eval_runs/learner_luoyumeng_20260314_030509/segments/phones/learner/luoyumeng_question_003/011_EH0.wav

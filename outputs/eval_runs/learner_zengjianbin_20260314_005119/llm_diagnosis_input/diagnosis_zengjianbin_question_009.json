@@ -1,0 +1,39 @@
+{
+  "pair_id": "u1_l1_012__zengjianbin_question_009",
+  "reference_id": "u1_l1_012",
+  "learner_id": "zengjianbin_question_009",
+  "reference_text": "e dānisi tiko na yalewa",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 96.3976892426601,
+    "dtw_norm_distance_dimnorm": 0.2543696651095455,
+    "needs_diagnosis": false,
+    "matched_word_segments": 5,
+    "matched_phone_segments": 19
+  },
+  "drill_down_level": "sentence_only",
+  "strong_words": [
+    {
+      "word": "dānisi",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.265043971530098
+    },
+    {
+      "word": "tiko",
+      "word_score_relative": 79.28808173807724,
+      "word_dtw_norm_distance_dimnorm": 0.2810646065424998
+    }
+  ],
+  "weak_words": [],
+  "notes": [
+    "Sentence score passed the threshold; do not drill down for negative diagnosis by default."
+  ]
+}

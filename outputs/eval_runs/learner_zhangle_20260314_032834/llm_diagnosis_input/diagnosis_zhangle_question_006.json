@@ -1,0 +1,74 @@
+{
+  "pair_id": "u1_l1_009__zhangle_question_006",
+  "reference_id": "u1_l1_009",
+  "learner_id": "zhangle_question_006",
+  "reference_text": "e taubale tiko na yalewa",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 0.0,
+    "dtw_norm_distance_dimnorm": 0.2978156297948709,
+    "needs_diagnosis": true,
+    "matched_word_segments": 5,
+    "matched_phone_segments": 19
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "taubale",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2731337090164388
+    },
+    {
+      "word": "tiko",
+      "word_score_relative": 37.005728291029094,
+      "word_dtw_norm_distance_dimnorm": 0.3109089603155887
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "na",
+      "word_label_learner": "na",
+      "seg_idx": 3,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.3330998778034499,
+      "ref_start": 1.57,
+      "ref_end": 1.77,
+      "learner_start": 1.84,
+      "learner_end": 2.04,
+      "weak_phones": [
+        {
+          "phone": "AA1",
+          "phone_label_learner": "AA1",
+          "seg_idx": 12,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.2689386595637288,
+          "ref_start": 1.7,
+          "ref_end": 1.77
+        }
+      ]
+    },
+    {
+      "word": "e",
+      "word_label_learner": "e",
+      "seg_idx": 0,
+      "word_score_relative": 8.647475524112537,
+      "word_dtw_norm_distance_dimnorm": 0.3279143180348451,
+      "ref_start": 0.4,
+      "ref_end": 0.47,
+      "learner_start": 0.33,
+      "learner_end": 0.68,
+      "weak_phones": []
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "pair_id": "u1_l1_004__zhangle_question_003",
+  "reference_id": "u1_l1_004",
+  "learner_id": "zhangle_question_003",
+  "reference_text": "e dua na tagane",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 78.04313848176375,
+    "dtw_norm_distance_dimnorm": 0.262338206892248,
+    "needs_diagnosis": true,
+    "matched_word_segments": 4,
+    "matched_phone_segments": 12
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "dua",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2607947744710915
+    },
+    {
+      "word": "tagane",
+      "word_score_relative": 75.82220896155079,
+      "word_dtw_norm_distance_dimnorm": 0.2832582564855507
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "na",
+      "word_label_learner": "na",
+      "seg_idx": 2,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.353704345815869,
+      "ref_start": 0.81,
+      "ref_end": 1.02,
+      "learner_start": 1.1,
+      "learner_end": 1.34,
+      "weak_phones": [
+        {
+          "phone": "AA1",
+          "phone_label_learner": "AA1",
+          "seg_idx": 5,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.317745291798949,
+          "ref_start": 0.94,
+          "ref_end": 1.02
+        }
+      ]
+    },
+    {
+      "word": "e",
+      "word_label_learner": "e",
+      "seg_idx": 0,
+      "word_score_relative": 6.459396099244369,
+      "word_dtw_norm_distance_dimnorm": 0.3477029485885998,
+      "ref_start": 0.25,
+      "ref_end": 0.37,
+      "learner_start": 0.38,
+      "learner_end": 0.55,
+      "weak_phones": []
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

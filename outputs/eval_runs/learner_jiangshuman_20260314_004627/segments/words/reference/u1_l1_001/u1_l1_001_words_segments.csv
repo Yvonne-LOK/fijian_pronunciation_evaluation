@@ -1,0 +1,2 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+u1_l1_001,words,0,bula,0.36,0.88,0.52,/mnt/d/workdir/outputs/eval_runs/learner_jiangshuman_20260314_004627/segments/words/reference/u1_l1_001/000_bula.wav

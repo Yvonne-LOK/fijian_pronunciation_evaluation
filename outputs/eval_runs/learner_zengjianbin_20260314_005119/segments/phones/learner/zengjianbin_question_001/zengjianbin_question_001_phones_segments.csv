@@ -1,0 +1,5 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+zengjianbin_question_001,phones,0,B,0.43,0.46,0.030000000000000027,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/phones/learner/zengjianbin_question_001/000_B.wav
+zengjianbin_question_001,phones,1,UW1,0.46,0.5,0.03999999999999998,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/phones/learner/zengjianbin_question_001/001_UW1.wav
+zengjianbin_question_001,phones,2,L,0.5,1.09,0.5900000000000001,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/phones/learner/zengjianbin_question_001/002_L.wav
+zengjianbin_question_001,phones,3,AA0,1.09,1.28,0.18999999999999995,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_005119/segments/phones/learner/zengjianbin_question_001/003_AA0.wav

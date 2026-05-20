@@ -1,0 +1,6 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+zhangle_question_006,words,0,e,0.33,0.68,0.35000000000000003,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/words/learner/zhangle_question_006/000_e.wav
+zhangle_question_006,words,1,taubale,0.75,1.33,0.5800000000000001,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/words/learner/zhangle_question_006/001_taubale.wav
+zhangle_question_006,words,2,tiko,1.44,1.84,0.40000000000000013,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/words/learner/zhangle_question_006/002_tiko.wav
+zhangle_question_006,words,3,na,1.84,2.04,0.19999999999999996,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/words/learner/zhangle_question_006/003_na.wav
+zhangle_question_006,words,4,yalewa,2.04,2.74,0.7000000000000002,/mnt/d/workdir/outputs/eval_runs/learner_zhangle_20260314_032834/segments/words/learner/zhangle_question_006/004_yalewa.wav

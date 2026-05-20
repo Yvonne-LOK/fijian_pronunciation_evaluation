@@ -1,0 +1,21 @@
+{
+  "num_pairs": 10,
+  "num_ok_pairs": 10,
+  "mean_sentence_score": 5.303510831376916e-18,
+  "mean_sentence_score_new_relative": 46.30591192796819,
+  "mean_phone_score": 5.2787369801666e-16,
+  "mean_phone_score_new_relative": 48.848444013225716,
+  "mean_word_score": 3.934332239048245e-17,
+  "mean_word_score_new_relative": 49.22035605376412,
+  "mean_overall_score": 1.9084017707950645e-16,
+  "mean_overall_score_new_relative": 48.12490399831934,
+  "output_dir": "/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_032442",
+  "mean_sentence_score_percent": "0.00%",
+  "mean_sentence_score_new_relative_percent": "46.31%",
+  "mean_phone_score_percent": "0.00%",
+  "mean_phone_score_new_relative_percent": "48.85%",
+  "mean_word_score_percent": "0.00%",
+  "mean_word_score_new_relative_percent": "49.22%",
+  "mean_overall_score_percent": "0.00%",
+  "mean_overall_score_new_relative_percent": "48.12%"
+}

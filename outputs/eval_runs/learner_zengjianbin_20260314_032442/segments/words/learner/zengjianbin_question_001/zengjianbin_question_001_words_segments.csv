@@ -1,0 +1,2 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+zengjianbin_question_001,words,0,bula,0.43,1.28,0.8500000000000001,/mnt/d/workdir/outputs/eval_runs/learner_zengjianbin_20260314_032442/segments/words/learner/zengjianbin_question_001/000_bula.wav

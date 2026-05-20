@@ -1,0 +1,169 @@
+{
+  "pair_id": "u1_l1_011__luoyumeng2_question_008",
+  "sentence_text": "e lagasere tiko na tagane",
+  "sentence_distance": 0.25346356026164846,
+  "sentence_score": 94.43842219995115,
+  "words": {
+    "e": {
+      "learner_word": "e",
+      "word_distance": 0.25910814927226017,
+      "word_score": 95.4869363872556,
+      "phones_distances": {
+        "EH1": {
+          "mapping": "e",
+          "learner_phone": "EH1",
+          "phone_distance": 0.25910814927226017,
+          "phone_score": 90.86648535964028
+        }
+      }
+    },
+    "lagasere": {
+      "learner_word": "lagasere",
+      "word_distance": 0.2679413175693935,
+      "word_score": 92.42396075664678,
+      "phones_distances": {
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.3543535006503337,
+          "phone_score": 71.38111359757723
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.3414794248777974,
+          "phone_score": 74.01490253206363
+        },
+        "NG": {
+          "mapping": "g",
+          "learner_phone": "NG",
+          "phone_distance": 0.24845704698868062,
+          "phone_score": 93.04549656248082
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.33878132153724116,
+          "phone_score": 74.56688271673966
+        },
+        "S": {
+          "mapping": "s",
+          "learner_phone": "S",
+          "phone_distance": 0.24168187023596444,
+          "phone_score": 94.43156775514538
+        },
+        "EH1": {
+          "mapping": "e",
+          "learner_phone": "EH1",
+          "phone_distance": 0.33922824219968284,
+          "phone_score": 74.47545132266295
+        },
+        "R": {
+          "mapping": "r",
+          "learner_phone": "R",
+          "phone_distance": 0.3802794279603114,
+          "phone_score": 66.07716621744886
+        },
+        "EH0": {
+          "mapping": "e",
+          "learner_phone": "EH0",
+          "phone_distance": 0.3396742009167232,
+          "phone_score": 74.38421672416196
+        }
+      }
+    },
+    "tiko": {
+      "learner_word": "tiko",
+      "word_distance": 0.2655694744372583,
+      "word_score": 93.24641737345489,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.22367414440436997,
+          "phone_score": 98.11560301084083
+        },
+        "IY1": {
+          "mapping": "i",
+          "learner_phone": "IY1",
+          "phone_distance": 0.3049957468108744,
+          "phone_score": 81.47876318348307
+        },
+        "K": {
+          "mapping": "k",
+          "learner_phone": "K",
+          "phone_distance": 0.35672476629296906,
+          "phone_score": 70.89599813603677
+        },
+        "AO0": {
+          "mapping": "o",
+          "learner_phone": "AO0",
+          "phone_distance": 0.32427508447322295,
+          "phone_score": 77.53458054105661
+        }
+      }
+    },
+    "na": {
+      "learner_word": "na",
+      "word_distance": 0.2932346097750682,
+      "word_score": 83.6532982901576,
+      "phones_distances": {
+        "N": {
+          "mapping": "n",
+          "learner_phone": "N",
+          "phone_distance": 0.33161676555063363,
+          "phone_score": 76.0326134310399
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.28161793371983074,
+          "phone_score": 86.26141527591764
+        }
+      }
+    },
+    "tagane": {
+      "learner_word": "tagane",
+      "word_distance": 0.31340519453358034,
+      "word_score": 76.65897785017427,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.3611662912092644,
+          "phone_score": 69.98734734172194
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.36313413475449824,
+          "phone_score": 69.58476430230147
+        },
+        "NG": {
+          "mapping": "g",
+          "learner_phone": "NG",
+          "phone_distance": 0.3560968582837292,
+          "phone_score": 71.0244560693153
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.3338946851767323,
+          "phone_score": 75.56659477378867
+        },
+        "N": {
+          "mapping": "n",
+          "learner_phone": "N",
+          "phone_distance": 0.32995257855215593,
+          "phone_score": 76.37307416615978
+        },
+        "EH0": {
+          "mapping": "e",
+          "learner_phone": "EH0",
+          "phone_distance": 0.25733773208036514,
+          "phone_score": 91.2286787544768
+        }
+      }
+    }
+  }
+}

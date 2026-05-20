@@ -1,0 +1,33 @@
+{
+  "pair_id": "u1_l1_001__jiangshuman_question_001",
+  "sentence_text": "bula",
+  "sentence_distance": 0.262507774163308,
+  "words": {
+    "bula": {
+      "learner_word": "bula",
+      "word_distance": 0.262507774163308,
+      "phones_distances": {
+        "B": {
+          "mapping": "b",
+          "learner_phone": "B",
+          "phone_distance": 0.35031382594049276
+        },
+        "UW1": {
+          "mapping": "u",
+          "learner_phone": "UW1",
+          "phone_distance": 0.3629904600268212
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.26903012477300725
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.2996934188898514
+        }
+      }
+    }
+  }
+}

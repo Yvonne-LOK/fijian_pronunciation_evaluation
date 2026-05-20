@@ -1,0 +1,13 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+u1_l1_003,phones,0,EH1,0.44,0.64,0.2,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/000_EH1.wav
+u1_l1_003,phones,1,D,0.64,0.72,0.07999999999999996,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/001_D.wav
+u1_l1_003,phones,2,UW1,0.72,0.9,0.18000000000000005,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/002_UW1.wav
+u1_l1_003,phones,3,AA0,0.9,0.97,0.06999999999999995,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/003_AA0.wav
+u1_l1_003,phones,4,N,0.97,1.11,0.14000000000000012,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/004_N.wav
+u1_l1_003,phones,5,AA1,1.11,1.19,0.07999999999999985,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/005_AA1.wav
+u1_l1_003,phones,6,Y,1.19,1.29,0.10000000000000009,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/006_Y.wav
+u1_l1_003,phones,7,AA0,1.29,1.48,0.18999999999999995,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/007_AA0.wav
+u1_l1_003,phones,8,L,1.48,1.54,0.06000000000000005,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/008_L.wav
+u1_l1_003,phones,9,EH1,1.54,1.63,0.08999999999999986,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/009_EH1.wav
+u1_l1_003,phones,10,W,1.63,1.78,0.15000000000000013,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/010_W.wav
+u1_l1_003,phones,11,AA0,1.78,1.93,0.1499999999999999,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_002834/segments/phones/reference/u1_l1_003/011_AA0.wav

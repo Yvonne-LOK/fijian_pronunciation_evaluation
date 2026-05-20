@@ -1,0 +1,74 @@
+{
+  "pair_id": "u1_l1_011__jiangshuman_question_008",
+  "reference_id": "u1_l1_011",
+  "learner_id": "jiangshuman_question_008",
+  "reference_text": "e lagasere tiko na tagane",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 73.24364900617732,
+    "dtw_norm_distance_dimnorm": 0.251089979434873,
+    "needs_diagnosis": true,
+    "matched_word_segments": 5,
+    "matched_phone_segments": 21
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "tiko",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2413017503634156
+    },
+    {
+      "word": "lagasere",
+      "word_score_relative": 70.73173465054117,
+      "word_dtw_norm_distance_dimnorm": 0.2704981881496039
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "na",
+      "word_label_learner": "na",
+      "seg_idx": 3,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.3410563392930535,
+      "ref_start": 1.7,
+      "ref_end": 1.88,
+      "learner_start": 2.3,
+      "learner_end": 2.51,
+      "weak_phones": [
+        {
+          "phone": "AA1",
+          "phone_label_learner": "AA1",
+          "seg_idx": 14,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.3620890674175275,
+          "ref_start": 1.82,
+          "ref_end": 1.88
+        }
+      ]
+    },
+    {
+      "word": "e",
+      "word_label_learner": "e",
+      "seg_idx": 0,
+      "word_score_relative": 21.62957499533223,
+      "word_dtw_norm_distance_dimnorm": 0.3194798456692321,
+      "ref_start": 0.46,
+      "ref_end": 0.56,
+      "learner_start": 0.39,
+      "learner_end": 0.65,
+      "weak_phones": []
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

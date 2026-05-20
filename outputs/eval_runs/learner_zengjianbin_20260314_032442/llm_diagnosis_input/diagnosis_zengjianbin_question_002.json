@@ -1,0 +1,39 @@
+{
+  "pair_id": "u1_l1_003__zengjianbin_question_002",
+  "reference_id": "u1_l1_003",
+  "learner_id": "zengjianbin_question_002",
+  "reference_text": "e dua na yalewa",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 100.0,
+    "dtw_norm_distance_dimnorm": 0.2449847181052264,
+    "needs_diagnosis": false,
+    "matched_word_segments": 4,
+    "matched_phone_segments": 12
+  },
+  "drill_down_level": "sentence_only",
+  "strong_words": [
+    {
+      "word": "na",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2236238605058348
+    },
+    {
+      "word": "dua",
+      "word_score_relative": 27.777853038777884,
+      "word_dtw_norm_distance_dimnorm": 0.2731798188080807
+    }
+  ],
+  "weak_words": [],
+  "notes": [
+    "Sentence score passed the threshold; do not drill down for negative diagnosis by default."
+  ]
+}

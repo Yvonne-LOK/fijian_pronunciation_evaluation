@@ -1,0 +1,157 @@
+{
+  "pair_id": "u1_l1_009__guoziyu_question_006",
+  "sentence_text": "e taubale tiko na yalewa",
+  "sentence_distance": 0.25045022490427254,
+  "sentence_score": 96.36943019346381,
+  "words": {
+    "e": {
+      "learner_word": "e",
+      "word_distance": 0.34314647335914983,
+      "word_score": 66.34593849651162,
+      "phones_distances": {
+        "EH1": {
+          "mapping": "e",
+          "learner_phone": "EH1",
+          "phone_distance": 0.34314647335914983,
+          "phone_score": 73.67385639244056
+        }
+      }
+    },
+    "taubale": {
+      "learner_word": "taubale",
+      "word_distance": 0.28232381680734264,
+      "word_score": 87.43670780377539,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.21893364136408064,
+          "phone_score": 99.0854189939072
+        },
+        "AW1": {
+          "mapping": "au",
+          "learner_phone": "AW1",
+          "phone_distance": 0.2690650142177007,
+          "phone_score": 88.82950179834884
+        },
+        "B": {
+          "mapping": "b",
+          "learner_phone": "B",
+          "phone_distance": 0.34845337661156567,
+          "phone_score": 72.58816579145623
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.32248501343255553,
+          "phone_score": 77.90079473632429
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.34401033094951555,
+          "phone_score": 73.49712770117941
+        },
+        "EH0": {
+          "mapping": "e",
+          "learner_phone": "EH0",
+          "phone_distance": 0.37404508105545275,
+          "phone_score": 67.35259399819832
+        }
+      }
+    },
+    "tiko": {
+      "learner_word": "tiko",
+      "word_distance": 0.24528036502961761,
+      "word_score": 100.281837235491,
+      "phones_distances": {
+        "T": {
+          "mapping": "t",
+          "learner_phone": "T",
+          "phone_distance": 0.30014592977266824,
+          "phone_score": 82.4709427135088
+        },
+        "IY1": {
+          "mapping": "i",
+          "learner_phone": "IY1",
+          "phone_distance": 0.3344311129077295,
+          "phone_score": 75.45685195053561
+        },
+        "K": {
+          "mapping": "k",
+          "learner_phone": "K",
+          "phone_distance": 0.2477139522398791,
+          "phone_score": 93.19751949300012
+        },
+        "AO0": {
+          "mapping": "o",
+          "learner_phone": "AO0",
+          "phone_distance": 0.3583500420738776,
+          "phone_score": 70.56349788958201
+        }
+      }
+    },
+    "na": {
+      "learner_word": "na",
+      "word_distance": 0.2994794440303762,
+      "word_score": 81.48784932578009,
+      "phones_distances": {
+        "N": {
+          "mapping": "n",
+          "learner_phone": "N",
+          "phone_distance": 0.3156815454087088,
+          "phone_score": 79.29265378033932
+        },
+        "AA1": {
+          "mapping": "a",
+          "learner_phone": "AA1",
+          "phone_distance": 0.26893865956372887,
+          "phone_score": 88.85535153663932
+        }
+      }
+    },
+    "yalewa": {
+      "learner_word": "yalewa",
+      "word_distance": 0.28194587543686894,
+      "word_score": 87.56776216259878,
+      "phones_distances": {
+        "Y": {
+          "mapping": "y",
+          "learner_phone": "Y",
+          "phone_distance": 0.3312097596762404,
+          "phone_score": 76.11587902518335
+        },
+        "AA0": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.32307879837785275,
+          "phone_score": 77.77931772733194
+        },
+        "L": {
+          "mapping": "l",
+          "learner_phone": "L",
+          "phone_distance": 0.3471174648139451,
+          "phone_score": 72.86146771791597
+        },
+        "EH1": {
+          "mapping": "e",
+          "learner_phone": "EH1",
+          "phone_distance": 0.29379210473408923,
+          "phone_score": 83.77081342842034
+        },
+        "W": {
+          "mapping": "w",
+          "learner_phone": "W",
+          "phone_distance": 0.2949367667812753,
+          "phone_score": 83.5366375320786
+        },
+        "AA0__2": {
+          "mapping": "a",
+          "learner_phone": "AA0",
+          "phone_distance": 0.3354192407658991,
+          "phone_score": 75.25469994640832
+        }
+      }
+    }
+  }
+}

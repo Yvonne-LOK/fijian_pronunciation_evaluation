@@ -1,0 +1,74 @@
+{
+  "pair_id": "u1_l1_010__zengjianbin_question_007",
+  "reference_id": "u1_l1_010",
+  "learner_id": "zengjianbin_question_007",
+  "reference_text": "e cici tiko na yalewa",
+  "status": "ok",
+  "diagnosis_policy": {
+    "sentence_threshold": 85.0,
+    "word_threshold": 75.0,
+    "phone_threshold": 70.0,
+    "sentence_metric": "sentence_score_new_relative",
+    "word_metric": "relative_score_in_utterance",
+    "phone_metric": "relative_score_in_word"
+  },
+  "sentence": {
+    "score_relative": 38.49763874991996,
+    "dtw_norm_distance_dimnorm": 0.2694541190066606,
+    "needs_diagnosis": true,
+    "matched_word_segments": 5,
+    "matched_phone_segments": 17
+  },
+  "drill_down_level": "word_phone",
+  "strong_words": [
+    {
+      "word": "tiko",
+      "word_score_relative": 100.0,
+      "word_dtw_norm_distance_dimnorm": 0.2770182107905345
+    },
+    {
+      "word": "na",
+      "word_score_relative": 55.40849025361414,
+      "word_dtw_norm_distance_dimnorm": 0.2985635022913573
+    }
+  ],
+  "weak_words": [
+    {
+      "word": "e",
+      "word_label_learner": "e",
+      "seg_idx": 0,
+      "word_score_relative": 0.0,
+      "word_dtw_norm_distance_dimnorm": 0.3253352371109296,
+      "ref_start": 0.65,
+      "ref_end": 0.77,
+      "learner_start": 1.17,
+      "learner_end": 1.37,
+      "weak_phones": []
+    },
+    {
+      "word": "cici",
+      "word_label_learner": "cici",
+      "seg_idx": 1,
+      "word_score_relative": 34.41407593787642,
+      "word_dtw_norm_distance_dimnorm": 0.3087073789821051,
+      "ref_start": 0.77,
+      "ref_end": 1.13,
+      "learner_start": 1.37,
+      "learner_end": 1.7,
+      "weak_phones": [
+        {
+          "phone": "DH",
+          "phone_label_learner": "DH",
+          "seg_idx": 1,
+          "phone_score_relative": 0.0,
+          "phone_dtw_norm_distance_dimnorm": 0.4177508734119758,
+          "ref_start": 0.77,
+          "ref_end": 0.85
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Sentence score is below the diagnosis threshold; inspect weak words and weak phones."
+  ]
+}

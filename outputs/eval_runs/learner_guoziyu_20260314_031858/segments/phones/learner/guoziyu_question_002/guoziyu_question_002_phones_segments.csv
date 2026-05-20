@@ -1,0 +1,13 @@
+﻿utt_id,tier,seg_idx,label,start,end,duration,wav_path
+guoziyu_question_002,phones,0,EH1,0.79,1.02,0.22999999999999998,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/000_EH1.wav
+guoziyu_question_002,phones,1,D,1.02,1.14,0.11999999999999988,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/001_D.wav
+guoziyu_question_002,phones,2,UW1,1.14,1.38,0.24,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/002_UW1.wav
+guoziyu_question_002,phones,3,AA0,1.38,1.47,0.09000000000000008,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/003_AA0.wav
+guoziyu_question_002,phones,4,N,1.47,1.51,0.040000000000000036,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/004_N.wav
+guoziyu_question_002,phones,5,AA1,1.51,1.56,0.050000000000000044,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/005_AA1.wav
+guoziyu_question_002,phones,6,Y,1.56,1.69,0.1299999999999999,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/006_Y.wav
+guoziyu_question_002,phones,7,AA0,1.69,2.12,0.43000000000000016,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/007_AA0.wav
+guoziyu_question_002,phones,8,L,2.12,2.25,0.1299999999999999,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/008_L.wav
+guoziyu_question_002,phones,9,EH1,2.25,2.39,0.14000000000000012,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/009_EH1.wav
+guoziyu_question_002,phones,10,W,2.39,2.42,0.029999999999999805,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/010_W.wav
+guoziyu_question_002,phones,11,AA0,2.42,2.58,0.16000000000000014,/mnt/d/workdir/outputs/eval_runs/learner_guoziyu_20260314_031858/segments/phones/learner/guoziyu_question_002/011_AA0.wav
