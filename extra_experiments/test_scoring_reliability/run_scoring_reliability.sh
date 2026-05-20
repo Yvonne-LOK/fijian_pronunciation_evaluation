@@ -15,12 +15,14 @@
 # =============================================================================
 set -euo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
-
 # ---------------------------------------------------------------------------
 # 用户可修改的配置
 # ---------------------------------------------------------------------------
+
+# 【重要】项目根目录：若自动检测失败（常见于 CRLF 问题），在此手动填写 WSL 路径
+# 例如：MANUAL_PROJECT_ROOT="/mnt/d/workdir"
+# 留空则自动检测
+MANUAL_PROJECT_ROOT=""
 
 # Python 解释器：留空则自动检测
 MANUAL_PYTHON_BIN=""
@@ -31,6 +33,27 @@ MANUAL_RUNS="5"
 # 是否跳过 MFA 对齐（1=跳过，0=重跑 MFA）
 # 如果你没有安装 MFA，或只想测试 GFCC+DTW 评分的确定性，设为 1
 MANUAL_SKIP_MFA="0"
+
+# ---------------------------------------------------------------------------
+# 路径解析（兼容 CRLF、WSL、Git Bash）
+# ---------------------------------------------------------------------------
+# 去除 BASH_SOURCE 可能携带的 \r（CRLF 文件在 WSL 下的常见问题）
+_raw_source="${BASH_SOURCE[0]}"
+_raw_source="${_raw_source//$'\r'/}"
+SCRIPT_DIR="$(cd "$(dirname "${_raw_source}")" && pwd)"
+
+if [[ -n "${MANUAL_PROJECT_ROOT}" ]]; then
+    PROJECT_ROOT="${MANUAL_PROJECT_ROOT%$'\r'}"   # 同样去 \r
+else
+    PROJECT_ROOT="$(cd "${SCRIPT_DIR}/../.." && pwd)"
+fi
+
+if [[ -z "${PROJECT_ROOT}" ]]; then
+    echo "[ERROR] 无法自动检测项目根目录。" >&2
+    echo "[ERROR] 请在脚本顶部手动填写 MANUAL_PROJECT_ROOT，例如：" >&2
+    echo "[ERROR]   MANUAL_PROJECT_ROOT=\"/mnt/d/workdir\"" >&2
+    exit 1
+fi
 
 # ---------------------------------------------------------------------------
 # 自动检测 Python
