@@ -204,7 +204,7 @@ def write_manifest(path: Path, all_rows: dict[str, list[tuple[str, str, str]]]) 
 # Run batch evaluation
 # ---------------------------------------------------------------------------
 def run_batch_eval(pair_csv: Path, output_dir: Path, python_bin: str) -> None:
-    _ensure_clean_dir(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
     cmd = [
         python_bin,
         str(BATCH_EVAL_SCRIPT),
